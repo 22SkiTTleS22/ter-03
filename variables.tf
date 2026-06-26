@@ -30,3 +30,34 @@ variable "vpc_name" {
   default     = "develop"
   description = "VPC network&subnet name"
 }
+<<<<<<< HEAD
+=======
+
+  ###vm vars
+  variable "vm_image_family" {
+    type        = string
+    default     = "ubuntu-2004-lts"
+    description = "Yandex Cloud image family for VMs"
+  }
+
+  variable "vm_resources" {
+    type = object({
+      cores         = number
+      memory        = number
+      core_fraction = number
+    })
+    default = {
+      cores         = 2
+      memory        = 1
+      core_fraction = 20
+    }
+    description = "Minimal cheap VM resources: 2 cores at 20% fraction, 1GB RAM"
+  }
+
+  variable "vm_preemptible" {
+    type        = bool
+    default     = true
+    description = "Use preemptible (spot) VM to minimize cost"
+  }
+
+>>>>>>> c5956d5 (Task 2.1)
