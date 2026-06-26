@@ -65,3 +65,35 @@ yandex_compute_instance.db["main"]: Creation complete after 44s [id=fhmq8d2mkq0k
 
 Task 4
 
+<img width="944" height="276" alt="image" src="https://github.com/user-attachments/assets/93e13557-e524-46a8-9d1b-c7dbedea0b4b" />
+На скриншоте вариант с внутренними адресами, так как не хватает квоты на публичные (["network_interface"][0]["nat_ip_address"])
+
+yandex_compute_instance.db["replica"]: Creating...
+yandex_compute_instance.db["main"]: Creating...
+yandex_compute_instance.storage: Creating...
+yandex_compute_instance.db["main"]: Still creating... [00m10s elapsed]
+yandex_compute_instance.db["replica"]: Still creating... [00m10s elapsed]
+yandex_compute_instance.storage: Still creating... [00m10s elapsed]
+yandex_compute_instance.db["replica"]: Still creating... [00m20s elapsed]
+yandex_compute_instance.db["main"]: Still creating... [00m20s elapsed]
+yandex_compute_instance.storage: Still creating... [00m20s elapsed]
+yandex_compute_instance.db["replica"]: Still creating... [00m30s elapsed]
+yandex_compute_instance.db["main"]: Still creating... [00m30s elapsed]
+yandex_compute_instance.storage: Still creating... [00m30s elapsed]
+yandex_compute_instance.db["main"]: Creation complete after 39s [id=fhm7bkv4f84tvhibt2f6]
+yandex_compute_instance.db["replica"]: Still creating... [00m40s elapsed]
+yandex_compute_instance.storage: Still creating... [00m40s elapsed]
+yandex_compute_instance.db["replica"]: Creation complete after 44s [id=fhm5r6g556deqc54t2c3]
+yandex_compute_instance.web[0]: Creating...
+yandex_compute_instance.web[1]: Creating...
+yandex_compute_instance.storage: Creation complete after 44s [id=fhmf54gchaimssv26tr8]
+yandex_compute_instance.web[0]: Still creating... [00m10s elapsed]
+yandex_compute_instance.web[1]: Still creating... [00m10s elapsed]
+yandex_compute_instance.web[0]: Still creating... [00m20s elapsed]
+yandex_compute_instance.web[1]: Still creating... [00m20s elapsed]
+yandex_compute_instance.web[0]: Still creating... [00m30s elapsed]
+yandex_compute_instance.web[1]: Still creating... [00m30s elapsed]
+yandex_compute_instance.web[1]: Creation complete after 37s [id=fhm1cs8eot5d65svp3mg]
+yandex_compute_instance.web[0]: Creation complete after 38s [id=fhmspqb4h29n7ofcr8p9]
+local_file.hosts_cfg: Creating...
+local_file.hosts_cfg: Creation complete after 0s [id=77458e2c04cb76e9abf4947e99b82a2304c4c82e]
