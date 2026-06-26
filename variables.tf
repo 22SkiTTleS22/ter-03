@@ -30,8 +30,6 @@ variable "vpc_name" {
   default     = "develop"
   description = "VPC network&subnet name"
 }
-<<<<<<< HEAD
-=======
 
   ###vm vars
   variable "vm_image_family" {
@@ -59,5 +57,3 @@ variable "vpc_name" {
     default     = true
     description = "Use preemptible (spot) VM to minimize cost"
   }
-
->>>>>>> c5956d5 (Task 2.1)
