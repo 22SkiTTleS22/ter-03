@@ -28,7 +28,7 @@ data "yandex_compute_image" "ubuntu" {
 
     network_interface {
       subnet_id          = yandex_vpc_subnet.develop.id
-      nat                = true
+      nat                = false
       security_group_ids = [yandex_vpc_security_group.example.id]
     }
 
